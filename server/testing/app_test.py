@@ -250,3 +250,4 @@ class TestApp:
             assert response.status_code == 400
             assert response.content_type == 'application/json'
             assert response.json['errors'] == ["validation errors"]
+k
